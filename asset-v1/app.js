@@ -1,10 +1,10 @@
 var app = new function() {
-    this.name = "Alpha", 
+    this.name = "Free Time", 
     this.version = "1",
-    this.date = "2009", 
+    this.date = "2024", 
     this.folder = "asset-v1/", 
-    this.looptime = 5333,
-    this.bpm = 90, 
+    this.looptime = 10333,
+    this.bpm = 150, 
     this.totalframe = 260, 
     this.nbpolo = 7, 
     this.nbloopbonus = 2, 
@@ -21,7 +21,7 @@ var app = new function() {
     this.col2 = "#4b4b4b", 
     this.col3 = "#373737", 
     this.col4 = "#232323", 
-    this.animearray = [], this.bonusarray = [];
+    this.animearray = [{ name: "11_Beep", color: "#03f0fc", uniqsnd: !0 }], this.bonusarray = [];
     for (var n = 0, o = this.animearray.length; n < o; n++) {
         var a = this.animearray[n].name;
         this.animearray[n].soundA = a + "_a", 
