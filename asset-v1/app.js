@@ -6,7 +6,7 @@ var app = new function() {
     this.looptime = 12800,
     this.bpm = 150, 
     this.totalframe = 260, 
-    this.nbpolo = 3, 
+    this.nbpolo = 4, 
     this.nbloopbonus = 2, 
     this.bonusloopA = !1, 
     this.bonusendloopA = !1,
@@ -23,6 +23,7 @@ var app = new function() {
     this.col4 = "#232323", 
     this.animearray = [
     {name: "01_Bits", color: "#03f0fc", uniqsnd: !0},
+    {name: "07_Dash", color: "#03f0fc", uniqsnd: !1},
     {name: "11_Beep", color: "#03f0fc", uniqsnd: !0},
     {name: "12_Chipper", color: "#03f0fc", uniqsnd: !0}], 
     this.bonusarray = [];
