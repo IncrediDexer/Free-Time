@@ -21,13 +21,16 @@ var app = new function() {
     this.col2 = "#4b4b4b", 
     this.col3 = "#373737", 
     this.col4 = "#232323", 
-    this.animearray = [{ name: "11_Beep", color: "#03f0fc", uniqsnd: !0 }], this.bonusarray = [];
+    this.animearray = [
+    {name: "01_Bits", color: "#03f0fc", uniqsnd: !0},
+    {name: "11_Beep", color: "#03f0fc", uniqsnd: !0}], 
+    this.bonusarray = [];
     for (var n = 0, o = this.animearray.length; n < o; n++) {
-        var a = this.animearray[n].name;
-        this.animearray[n].soundA = a + "_a", 
-        this.animearray[n].soundB = 
-        this.animearray[n].uniqsnd ? a + "_a" : a + "_b", 
-        this.animearray[n].anime = a + "-sprite.png", 
-        this.animearray[n].animeData = a + ".json"
+    var a = this.animearray[n].name;
+    this.animearray[n].soundA = a + "_a", 
+    this.animearray[n].soundB = 
+    this.animearray[n].uniqsnd ? a + "_a" : a + "_b", 
+    this.animearray[n].anime = a + "-sprite.png", 
+    this.animearray[n].animeData = a + ".json"
     }
 };
